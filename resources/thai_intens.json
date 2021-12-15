@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "patterns": ["สวัสดี", "สวัสดีครับ","สวัสดีค่ะ"],
+            "response": ["สวัสดีครับ","สวัสดีค่ะ"]
+        },
+        {
+            "intent": "good bye",
+            "patterns": ["ไปก่อนนะ", "ลาก่อน"],
+            "response": ["ไว้พบกันใหม่", "ไว้เจอกันใหม่"]
+        },
+        {
+            "intent": "thank you",
+            "patterns": [],
+            "response": []
+        },
+        {
+            "intent": "interested in product",
+            "patterns": [],
+            "response":[]
+        }
+    ]
+}
